@@ -17,9 +17,9 @@ import { UserService } from './user/user.service';
       useFactory: async (
         configService: ConfigService,
       ): Promise<MongooseModuleOptions> => ({
-        uri: 'mongodb+srv://muhfikz04:muhfikz04@cluster0.won67pc.mongodb.net/',
-        user: 'muhfikz04',
-        pass: 'muhfikz',
+        uri: 'mongodb://mongo:eCb-fEEBe5DAFCdBA2BhhcA3FDaA5--4@monorail.proxy.rlwy.net:51515',
+        user: 'mongo',
+        pass: 'eCb-fEEBe5DAFCdBA2BhhcA3FDaA5--4',
         dbName: 'TwitterClone',
       }),
       inject: [ConfigService],

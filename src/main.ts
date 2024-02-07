@@ -8,7 +8,7 @@ async function bootstrap() {
   const configService = app.get(ConfigService);
 app.enableCors();
   dotenv.config();
-  await app.listen(5000);
+  await app.listen(5000, "0.0.0.0");
 }
 bootstrap();
 // mongodb://localhost:27017/FullStack

@@ -6,7 +6,7 @@
   },
   "deploy": {
     "numReplicas": 1,
-    "startCommand": "npm run start:prod --host 0.0.0.0 --port 5000",
+    "startCommand": "npm run start:prod --host 0.0.0.0 --port 57132",
     "sleepApplication": false,
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 10

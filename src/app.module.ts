@@ -17,10 +17,10 @@ import { UserService } from './user/user.service';
       useFactory: async (
         configService: ConfigService,
       ): Promise<MongooseModuleOptions> => ({
-        uri: configService.get<string>('DATABASE_URL'),
-        user: configService.get<string>('DATABASE_USER'),
-        pass: configService.get<string>('DATABASE_PASS'),
-        dbName: configService.get<string>('DATABASE_NAME'),
+        uri: 'mongodb+srv://muhfikz04:muhfikz04@cluster0.won67pc.mongodb.net/',
+        user: 'muhfikz04',
+        pass: 'muhfikz',
+        dbName: 'TwitterClone',
       }),
       inject: [ConfigService],
     }),
